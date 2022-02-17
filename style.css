@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(198, 223, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid red; */
+    background-color: whitesmoke;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joke-cont{
+    /* border: 2px solid; */
+    margin: 100px 0;
+    padding: 40px 60px;
+}
+.joke-cont p{
+    font-size: 250%;
+    /* border: 2px solid grey; */
+    color: rgb(48, 48, 48);
+}
+button{
+    /* border: 2px solid red; */
+    margin:  3% auto;
+    padding:10px 50px;
+    font-size: 100%;
+    background-color: rgb(119, 186, 245);
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(50, 152, 241) ;
+    color: rgb(219, 219, 219);
+}
+
+
+@media only screen and (max-width: 992px) {
+    .container{
+        margin: 20% 10% ;
+    }
+    .joke-cont{
+        
+        margin: 10% 0;
+        padding: 4% 8%;
+        
+    }
+    .joke-cont p{
+        font-size: 170%;
+    }
+    .container{
+        width: 80%;
+    }
+    button{
+        padding: 8px 30px;
+    }
+  }
